@@ -1,7 +1,5 @@
 import React from "react";
 import Canal from "./Canal";
-import {useDispatch} from "react-redux";
-import { actionCreators } from "../../redux/store";
 import {useSelector} from "react-redux";
 
 function Canaux(){
