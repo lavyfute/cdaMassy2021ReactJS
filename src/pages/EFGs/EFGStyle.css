@@ -1,0 +1,66 @@
+#efg-container {
+	margin-left: 50px;
+}
+
+.efg-link {
+	color: black;
+}
+
+.tab-efg {
+	background-color: aliceblue;
+	border: 1px solid #1899d6;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+
+.tab-efg th {
+	background-color: rgba(24, 154, 214, 0.5);
+}
+
+.tab-efg td {
+	border: 1px solid #1899d6;
+}
+
+.tab-efg td,
+.tab-efg th {
+	padding: 15px;
+}
+
+.tab-efg th:nth-child(1),
+.tab-efg th:nth-child(2),
+.tab-efg th:nth-child(3),
+.tab-efg td:nth-child(1),
+.tab-efg td:nth-child(2),
+.tab-efg td:nth-child(3) {
+	border-right: 1px solid #1899d6;
+}
+
+.btn-creation {
+	appearance: button;
+	background-color: #1899d6;
+	border: solid transparent;
+	border-radius: 16px;
+	border-width: 0 0 4px;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: din-round, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	line-height: 20px;
+	outline: none;
+	overflow: visible;
+	padding: 13px 16px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transform: translateZ(0);
+	transition: filter 0.2s;
+	user-select: none;
+	-webkit-user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: auto;
+}
